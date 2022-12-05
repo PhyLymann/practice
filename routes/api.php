@@ -20,4 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/dashboard/total-post', [DashboardController::class, 'totalPost']);
+//Route::get('/dashboard/total-post', [DashboardController::class, 'totalPost']);
